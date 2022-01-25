@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: #fff;
+ 
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 8vh;
+}
+
+.left-landing{
+    grid-row-start: 2;
+    grid-row-end: -1;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+  
+
+.left-landing .left-img{
+   display: flex;
+   align-items: center;
+
+}
+.left-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.left-landing .done h2{
+    /* font-size:10rem; */
+    color: #266A6d;
+    transform: translate(100px);
+}
+
+.left-landing .Work p{
+    width: 50%;
+    text-align: center;
+   
+}
+
+/* right landing styling */
+.right-landing{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    
+}
+
+.right-landing nav{
+    background-color: #266A6d;
+    /* height: 50px; */
+    height: 100%;
+}
+
+.right-landing nav ul{
+    background-color: #266A6d;
+    display: flex;
+    justify-content: space-around;
+    /* min-width:80%; */
+    width: 70%;
+    
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+
+}
+.right-landing nav ul li{
+    /* margin-left: 20px; */
+    background-color: #266A6d;
+}
+.right-landing nav ul li a{
+    background-color: #266A6d;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.right-landing .look{
+    display: flex;
+    /* height: calc(100vh-50px) ; */
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-landing .look a{
+    background-color: #266A6d;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 18px;
+    text-decoration: none;
+    width: 150px;
+     /* height: 50px; */
+    border-radius: 25px; 
+    display: flex;
+   justify-content: center;
+}
